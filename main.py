@@ -1,4 +1,5 @@
 # Employees_System
+
 def print_dachbord():
     msgs = ["Programe options:","1) Add a new employee","2) List all employees",
     "3) Delete by age range","4) Update salary given a name","5) End the program"]
@@ -15,9 +16,10 @@ def delete_by_age():
 def update_salary_by_name():
     pass 
 def end_program():
-    pass       
+    print("Thank you for using our system")
+    exit(1)       
 
-if __name__ == "main":    
+if __name__ == "__main__":    
     while True:
         print_dachbord()
         choice = int(input("Enter your choice (from 1 to 5): "))

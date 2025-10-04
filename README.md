@@ -1,5 +1,5 @@
 # Employees_System
-This is an Employee system for :
+This is an Employees system for :
 1) adding employees with their corresponding data (name,age,salary)
 2) listing all the existing employees
 3) deleting employees shuffled by age

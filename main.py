@@ -1,6 +1,6 @@
 # Employees_System
 
-from front_end_manager import FrontendManager as FE
+from system_classes.front_end_manager import FrontendManager as FE
 frontend = FE() 
 
 if __name__ == "__main__":    

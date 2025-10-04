@@ -13,7 +13,7 @@ class FrontendManager:
         )
 
     def choice_valid(self,choice):
-        return 48 < ord(choice[0]) <= 53  
+        return ( choice  and 48 < ord(choice[0]) <= 53  )
           
 
     def show_menu(self,choice):    
